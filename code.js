@@ -17,9 +17,25 @@ const addToZero = (arr) => {
  console.log(addToZero([1,2,3,-1]))
 
 
- const hasUniqueChars = (string) => {
-for (let i = 0; i < string.length; i++) {
-    
-    
-}
+ 
+ // Time O(n^2)
+ 
+ 
+
+ let charArr = []
+
+ const hasUniqueChars = (word) => {
+   for (let i = 0; i < word.length; i++){
+     if (charArr.includes(word[i])){
+        return false
+     }else {
+       charArr.push(word[i])}
+   }
+   return true
  }
+ 
+ console.log(hasUniqueChars("Monday"))
+ console.log(hasUniqueChars("Moody"))
+ console.log(hasUniqueChars("oblong"))
+
+  // Time O(n)
