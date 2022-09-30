@@ -19,6 +19,7 @@ const addToZero = (arr) => {
 
  
  // Time O(n^2)
+ // Space O(n^2)
  
  
 
@@ -39,6 +40,7 @@ const addToZero = (arr) => {
 //  console.log(hasUniqueChars("oblong"))
 
   // Time O(n)
+  // Space O(n^2)
 
   const isPangram = (str) => {
     str = str.toLowerCase().split('')
@@ -94,6 +96,7 @@ console.log(isPangram("I like cats, but not mice"));
 // -> False
 
 // Time O(n)
+// Space O(n)
 
 
 const findLongestWord = (arr) => {
@@ -113,3 +116,4 @@ console.log(findLongestWord(['bruh', 'canada','arasaka']))
 
 
 // Time O(n)
+// Space O(n)
