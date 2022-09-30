@@ -1,1 +1,19 @@
 insert function had a runtime of 2.12 seconds and the append function had a runtime of 13.55 ms
+
+tinyArray Insert: had a run time ot 134.4 us
+tinyArray Append:Had a run time of 310.7 us
+
+smallArray Insert: had a run time of 682.6 us
+smallArray Append: had a run time of 448 us
+
+mediumArray Insert: had a runtime of 940.1 us
+mediumArray Append: had a runtime of 937.7 us
+
+largeArray Insert: run time of 43.1152 ms
+largeArray Append: run time of 4.3846 ms
+
+extraLargeArray Insert: run time of 2.59 seconds
+extraLargeArray Append: run time of 14.16 ms
+
+It looks like the larger the array the longer it takes to insert compared to it being a lot less with the smallest array.
+But the append array seems to scale a lot better than the insert function unless it comes to an array of less than 100, after that it seems to increase run time exponentially compared to t at a steady rate in comparison with the data it receives.he insert that seems to increase

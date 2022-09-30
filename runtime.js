@@ -56,9 +56,7 @@ perf.start();
 doublerInsert(extraLargeArray);
 let resultsInsert = perf.stop();
 
-perf.start();                     // Starts timer
-doublerAppend(tinyArray);
-let resultsAppend = perf.stop();
+
 
 
 console.log('Results for the extraLargeArray');
